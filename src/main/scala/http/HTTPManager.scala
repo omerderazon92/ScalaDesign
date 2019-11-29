@@ -5,7 +5,7 @@ import scalaj.http._
 /**
   * Managing the connection between the lib and config micro service
   */
-object HTTPManager {
+object HTTPManager extends API {
 
   implicit final val OK: Int = 200
   val baseUrl: String = "http://localhost:8082/baseUrl/getConfigList/"

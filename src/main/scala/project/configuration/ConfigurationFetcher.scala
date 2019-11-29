@@ -39,15 +39,4 @@ object ConfigurationFetcher extends ConfigurationManager {
   override def parseResult(result: HashMap[String, String]): HashMap[String, Any] = {
     new HashMap[String, Any]
   }
-
-  /**
-    * A util function for parsing the json into a map
-    *
-    * @param jsonStr
-    * @return
-    */
-  private def jsonStrToMap(jsonStr: String): Map[String, String] = {
-    implicit val formats = org.json4s.DefaultFormats
-    parse(jsonStr).extract[Map[String, String]]
-  }
 }
