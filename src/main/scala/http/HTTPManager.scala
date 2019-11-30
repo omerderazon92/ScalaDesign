@@ -1,5 +1,6 @@
 package http
 
+import http.requests.{BaseRequest, GetConfigurationRequest}
 import scalaj.http._
 
 /**
@@ -8,20 +9,32 @@ import scalaj.http._
 object HTTPManager extends API {
 
   implicit final val OK: Int = 200
-  val baseUrl: String = "http://localhost:8082/baseUrl/getConfigList/"
+  val httpSettingFactory: HttpSettingFactory.type = HttpSettingFactory
+
+  /**
+    * Execute the http request using basic- no library scala http handler
+    *
+    * @param request the request itself
+    * @return
+    */
+  def executeHttpRequest(request: BaseRequest): Option[HttpResponse[String]] = {
+    val response: HttpResponse[String] = Http(request.requestUrl).asString
+    if (response.code == OK)
+      return Option(response)
+    null
+  }
 
   /**
     * RestGet method
     *
-    * @param forProject project name
+    * @param projectName project name
     * @return map of configurations
     */
-  def getConfigurations(forProject: String): String = {
-    val response: HttpResponse[String] = Http(baseUrl + "/" + forProject).asString
-    if (response.code == OK) {
-      response.body
-    } else {
-      null
-    }
+  def getConfigurations(projectName: String): Option[String] = {
+    var getConfigurationRequest = new GetConfigurationRequest(httpSettingFactory.configBaseUrl, projectName)
+    val response = executeHttpRequest(getConfigurationRequest).orNull
+    if (response != null)
+      return Option(response.body)
+    null
   }
 }

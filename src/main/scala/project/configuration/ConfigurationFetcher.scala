@@ -11,9 +11,9 @@ import scala.collection.immutable.HashMap
   */
 object ConfigurationFetcher extends ConfigurationManager {
 
-  implicit final val CLIFF: String = "cliffConfiguration"
-  implicit final val ITEM: String = "itemConfiguration"
-  implicit var projectName: String = ""
+  val CLIFF: String = "cliffConfiguration"
+  val ITEM: String = "itemConfiguration"
+  var projectName: String = ""
 
   /**
     * Fetches the configuration from the Redis remote server
@@ -21,13 +21,12 @@ object ConfigurationFetcher extends ConfigurationManager {
     * @return A key map HashMap of String to Any
     */
   override def fetchConfiguration: HashMap[String, Any] = {
-    val results = HTTPManager.getConfigurations(projectName)
-    if (results != null) {
-      val resultAsAMap = jsonStrToMap(results)
-      System.out.println(resultAsAMap.toString())
-      parseResult(new HashMap[String, String])
-    }
-    null
+    val results = HTTPManager.getConfigurations(projectName).orNull
+    if (results == null)
+      return null
+    val resultAsAMap = jsonStrToMap(results)
+    System.out.println(resultAsAMap.toString())
+    parseResult(new HashMap[String, String])
   }
 
   /**

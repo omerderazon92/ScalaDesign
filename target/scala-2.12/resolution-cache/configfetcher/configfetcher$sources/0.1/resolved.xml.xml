@@ -4,7 +4,7 @@
 		module="configfetcher$sources"
 		revision="0.1"
 		status="integration"
-		publication="20191129094926"
+		publication="20191130152812"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

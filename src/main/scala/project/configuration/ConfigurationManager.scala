@@ -12,6 +12,7 @@ abstract class ConfigurationManager {
 
   def parseResult(hashMap: HashMap[String, String]): HashMap[String, Any]
 
+
   /**
     * A util function for parsing the json into a map
     *
