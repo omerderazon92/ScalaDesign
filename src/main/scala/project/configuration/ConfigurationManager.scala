@@ -8,6 +8,8 @@ import scala.collection.immutable.HashMap
   * Contract for managing the project configurations
   */
 abstract class ConfigurationManager {
+  var projectName: String
+
   def fetchConfiguration: HashMap[String, Any]
 
   def parseResult(hashMap: HashMap[String, String]): HashMap[String, Any]

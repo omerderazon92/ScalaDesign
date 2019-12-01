@@ -13,7 +13,8 @@ object ConfigurationFetcher extends ConfigurationManager {
 
   val CLIFF: String = "cliffConfiguration"
   val ITEM: String = "itemConfiguration"
-  var projectName: String = ""
+
+  override var projectName: String = _
 
   /**
     * Fetches the configuration from the Redis remote server
