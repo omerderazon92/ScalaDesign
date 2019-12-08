@@ -29,10 +29,12 @@ object ConfigurationFetcher extends ConfigurationManager {
 
   override var projectName: ProjectName = _
   override var devName: DevName = _
+  override var sharedVersion: String = _
 
-  def apply(projectName: ProjectName, devName: DevName): Unit = {
+  def apply(projectName: ProjectName, devName: DevName, sharedVersion: String): Unit = {
     this.projectName = projectName
     this.devName = devName
+    this.sharedVersion = sharedVersion
   }
 
   /**
@@ -52,6 +54,7 @@ object ConfigurationFetcher extends ConfigurationManager {
 
   /**
     * Extract the right value from the response
+    *
     * @param response
     * @return
     */

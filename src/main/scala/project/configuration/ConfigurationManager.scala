@@ -9,6 +9,7 @@ import project.configuration.ProjectName.ProjectName
 abstract class ConfigurationManager {
   var projectName: ProjectName
   var devName: DevName
+  var sharedVersion: String
 
   def fetchConfiguration()
 
