@@ -1,8 +1,8 @@
-import project.configuration.ConfigurationFetcher
+import project.configuration.{ConfigurationFetcher, DevName, ProjectName}
 
 object Main {
   def main(args: Array[String]): Unit = {
-    ConfigurationFetcher.projectName = ConfigurationFetcher.CLIFF
-    val remoteConfigurations = ConfigurationFetcher.fetchConfiguration
+    ConfigurationFetcher.apply(ProjectName.Cliff, DevName.OmerD)
+    ConfigurationFetcher.fetchConfiguration()
   }
 }

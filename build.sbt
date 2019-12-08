@@ -12,4 +12,11 @@ libraryDependencies += "org.scalaj" %% "scalaj-http" % "2.4.2"
 
 libraryDependencies += "org.json4s" %% "json4s-jackson" % "3.7.0-M1"
 
+libraryDependencies += "org.json4s" %% "json4s-native" % "3.7.0-M1"
 
+val circeVersion = "0.7.0"
+libraryDependencies ++= Seq(
+  "io.circe"  %% "circe-core"     % circeVersion,
+  "io.circe"  %% "circe-generic"  % circeVersion,
+  "io.circe"  %% "circe-parser"   % circeVersion
+)

@@ -1,28 +1,16 @@
 package project.configuration
 
-import org.json4s.jackson.JsonMethods.parse
-
-import scala.collection.immutable.HashMap
+import project.configuration.DevName.DevName
+import project.configuration.ProjectName.ProjectName
 
 /**
   * Contract for managing the project configurations
   */
 abstract class ConfigurationManager {
-  var projectName: String
+  var projectName: ProjectName
+  var devName: DevName
 
-  def fetchConfiguration: HashMap[String, Any]
+  def fetchConfiguration()
 
-  def parseResult(hashMap: HashMap[String, String]): HashMap[String, Any]
-
-
-  /**
-    * A util function for parsing the json into a map
-    *
-    * @param jsonStr
-    * @return
-    */
-  protected def jsonStrToMap(jsonStr: String): Map[String, String] = {
-    implicit val formats = org.json4s.DefaultFormats
-    parse(jsonStr).extract[Map[String, String]]
-  }
+  def extractValue(response: String): Option[String]
 }

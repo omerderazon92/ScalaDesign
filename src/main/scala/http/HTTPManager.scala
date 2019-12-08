@@ -30,11 +30,12 @@ object HTTPManager extends API {
     * @param projectName project name
     * @return map of configurations
     */
-  def getConfigurations(projectName: String): Option[String] = {
-    var getConfigurationRequest = new GetConfigurationRequest(httpSettingFactory.configBaseUrl, projectName)
+  def getConfigurations(projectName: String, devName: String): Option[String] = {
+    var getConfigurationRequest = new GetConfigurationRequest(httpSettingFactory.configBaseUrl, projectName, devName)
     val response = executeHttpRequest(getConfigurationRequest).orNull
-    if (response != null)
+    if (response != null) {
       return Option(response.body)
+    }
     null
   }
 }

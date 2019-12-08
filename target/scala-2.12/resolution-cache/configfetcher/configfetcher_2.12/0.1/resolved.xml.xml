@@ -4,7 +4,7 @@
 		module="configfetcher_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20191128180907"
+		publication="20191208114017"
 	>
 		<description>
 		ConfigFetcher
@@ -36,5 +36,9 @@
 		<dependency org="com.typesafe.akka" name="akka-stream_2.12" rev="2.5.23" conf="compile->default(compile)"/>
 		<dependency org="org.scalaj" name="scalaj-http_2.12" rev="2.4.2" conf="compile->default(compile)"/>
 		<dependency org="org.json4s" name="json4s-jackson_2.12" rev="3.7.0-M1" conf="compile->default(compile)"/>
+		<dependency org="org.json4s" name="json4s-native_2.12" rev="3.7.0-M1" conf="compile->default(compile)"/>
+		<dependency org="io.circe" name="circe-core_2.12" rev="0.7.0" conf="compile->default(compile)"/>
+		<dependency org="io.circe" name="circe-generic_2.12" rev="0.7.0" conf="compile->default(compile)"/>
+		<dependency org="io.circe" name="circe-parser_2.12" rev="0.7.0" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
