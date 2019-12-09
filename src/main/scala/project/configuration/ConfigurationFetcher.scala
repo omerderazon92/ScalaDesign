@@ -29,7 +29,7 @@ object ConfigurationFetcher extends ConfigurationManager {
   override var devName: DevName = _
   override var sharedVersion: String = _
 
-  def apply(configurationName: ConfigurationName, devName: DevName, sharedVersion: String): Unit = {
+  def apply(configurationName: ConfigurationName, devName: DevName, sharedVersion: String = null): Unit = {
     this.configurationName = configurationName
     this.devName = devName
     this.sharedVersion = sharedVersion
