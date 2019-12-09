@@ -34,8 +34,8 @@ object HTTPManager extends API {
   def getConfigurations(projectName: String, devName: String): Option[String] = {
     var getConfigurationRequest = new GetConfigurationRequest(httpSettingFactory.configBaseUrl, projectName, devName)
     val response = executeHttpRequest(getConfigurationRequest).orNull
-    val parsedResponse = getConfigurationRequest.parseResponse(response)
     if (response != null) {
+      val parsedResponse = getConfigurationRequest.parseResponse(response)
       return Option(parsedResponse)
     }
     null

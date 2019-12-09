@@ -29,8 +29,8 @@ object ConfigurationFetcher extends ConfigurationManager {
   override var devName: DevName = _
   override var sharedVersion: String = _
 
-  def apply(projectName: ConfigurationName, devName: DevName, sharedVersion: String): Unit = {
-    this.configurationName = projectName
+  def apply(configurationName: ConfigurationName, devName: DevName, sharedVersion: String): Unit = {
+    this.configurationName = configurationName
     this.devName = devName
     this.sharedVersion = sharedVersion
   }
@@ -43,12 +43,13 @@ object ConfigurationFetcher extends ConfigurationManager {
   override def fetchConfiguration(): Unit = {
 
     def getLatestVersion: String = {
-      HTTPManager.getLatsetVersion.orNull
+      HTTPManager.getLatsetVersion.getOrElse("")
     }
 
     def executeRequests(projectName: String, devName: String, fileName: String, sharedVersion: String): Unit = {
       var sharedVersionToUse = if (sharedVersion == null) "" else sharedVersion
-      if (projectName.equals(ConfigurationName.Shared.toString) && sharedVersion == null) {
+      if (projectName.equals(ConfigurationName.Shared.toString) && sharedVersion == null
+        && devName.equals(DevName.Prod.toString)) {
         sharedVersionToUse = getLatestVersion
       }
       val configurations = HTTPManager.getConfigurations(projectName + sharedVersionToUse, devName).orNull
