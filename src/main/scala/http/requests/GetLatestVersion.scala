@@ -6,6 +6,11 @@ import scalaj.http.HttpResponse
 
 import scala.collection.mutable.ListBuffer
 
+/**
+  * Gets the latest version of the shared configuration
+  *
+  * @param url
+  */
 class GetLatestVersion(url: String) extends BaseRequest {
   override val requestUrl: String = url + "prod/?keys=true"
 

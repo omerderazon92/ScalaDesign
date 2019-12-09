@@ -7,10 +7,10 @@ import io.circe.generic.semiauto.deriveDecoder
 import io.circe.{Decoder, parser}
 
 /**
-  * Fetching the configurations for each project
-  *
+  * The request the gets the configuration
   * @param url
   * @param projectName
+  * @param devName
   */
 class GetConfigurationRequest(url: String, projectName: String, devName: String) extends BaseRequest {
   override val requestUrl: String = url + devName + "/" + projectName

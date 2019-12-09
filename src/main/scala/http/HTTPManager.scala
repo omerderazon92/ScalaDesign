@@ -5,7 +5,7 @@ import http.requests.project.configuration.GetConfigurationRequest
 import scalaj.http._
 
 /**
-  * Managing the connection between the lib and config micro service
+  * Managing the HTTP request of the library
   */
 object HTTPManager extends API {
 
@@ -13,10 +13,9 @@ object HTTPManager extends API {
   val httpSettingFactory: HttpSettingFactory.type = HttpSettingFactory
 
   /**
-    * Execute the http request using basic- no library scala http handler
-    *
-    * @param request the request itself
-    * @return
+    * A generic HTTP requests executer
+    * @param request generic base request
+    * @return returns an optional HTTP response
     */
   def executeHttpRequest(request: BaseRequest): Option[HttpResponse[String]] = {
     val response: HttpResponse[String] = Http(request.requestUrl).asString
@@ -26,10 +25,10 @@ object HTTPManager extends API {
   }
 
   /**
-    * RestGet method
-    *
-    * @param projectName project name
-    * @return map of configurations
+    * Gets the configuration from Consul
+    * @param projectName the project that we want the configuration of
+    * @param devName the developer that we want the configuration of
+    * @return
     */
   def getConfigurations(projectName: String, devName: String): Option[String] = {
     var getConfigurationRequest = new GetConfigurationRequest(httpSettingFactory.configBaseUrl, projectName, devName)
@@ -41,6 +40,10 @@ object HTTPManager extends API {
     null
   }
 
+  /**
+    * Gets the latest version of the shared configuration
+    * @return
+    */
   override def getLatsetVersion: Option[String] = {
     var getLatestVersion = new GetLatestVersion(httpSettingFactory.configBaseUrl)
     val response = executeHttpRequest(getLatestVersion).orNull

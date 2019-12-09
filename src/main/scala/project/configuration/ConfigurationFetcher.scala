@@ -20,8 +20,7 @@ object ConfigurationName extends Enumeration {
 }
 
 /**
-  * Responsible for fetching the project configuration from a Redis remote server
-  * please use the projectName from the const options to prevent mistakes
+  * Responsible for fetching the configuration from Consul KV according to few parameters
   */
 object ConfigurationFetcher extends ConfigurationManager {
 
@@ -36,9 +35,8 @@ object ConfigurationFetcher extends ConfigurationManager {
   }
 
   /**
-    * Fetches the configuration from the Redis remote server
-    *
-    * @return A key map HashMap of String to Any
+    * Fetches the configuration and save them to local conf files.
+    * One for the unique project configuration and other for the shared configurations
     */
   override def fetchConfiguration(): Unit = {
 
