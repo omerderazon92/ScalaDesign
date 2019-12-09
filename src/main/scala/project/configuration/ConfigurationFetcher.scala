@@ -3,19 +3,20 @@ package project.configuration
 import http.HTTPManager
 import project.configuration
 import project.configuration.DevName.DevName
-import project.configuration.ProjectName.ProjectName
+import project.configuration.ConfigurationName.ConfigurationName
 import util.Utils
 
 object DevName extends Enumeration {
   type DevName = Value
   val OmerD: configuration.DevName.Value = Value("omerd")
-  val Master: configuration.DevName.Value = Value("master")
+  val Prod: configuration.DevName.Value = Value("prod")
 }
 
-object ProjectName extends Enumeration {
-  type ProjectName = Value
-  val Cliff: configuration.ProjectName.Value = Value("Cliff")
-  val Item: configuration.ProjectName.Value = Value("Item")
+object ConfigurationName extends Enumeration {
+  type ConfigurationName = Value
+  val Cliff: configuration.ConfigurationName.Value = Value("Cliff")
+  val Item: configuration.ConfigurationName.Value = Value("Item")
+  val Shared: configuration.ConfigurationName.Value = Value("Shared")
 }
 
 /**
@@ -24,12 +25,12 @@ object ProjectName extends Enumeration {
   */
 object ConfigurationFetcher extends ConfigurationManager {
 
-  override var projectName: ProjectName = _
+  override var configurationName: ConfigurationName = _
   override var devName: DevName = _
   override var sharedVersion: String = _
 
-  def apply(projectName: ProjectName, devName: DevName, sharedVersion: String): Unit = {
-    this.projectName = projectName
+  def apply(projectName: ConfigurationName, devName: DevName, sharedVersion: String): Unit = {
+    this.configurationName = projectName
     this.devName = devName
     this.sharedVersion = sharedVersion
   }
@@ -40,11 +41,26 @@ object ConfigurationFetcher extends ConfigurationManager {
     * @return A key map HashMap of String to Any
     */
   override def fetchConfiguration(): Unit = {
-    val results = HTTPManager.getConfigurations(projectName.toString, devName.toString).orNull
-    if (results == null) {
-      return
+
+    def getLatestVersion: String = {
+      HTTPManager.getLatsetVersion.orNull
     }
-    val decodedString = Utils.base64Decoder(results)
-    Utils.writeFile("appremoteconf.conf", decodedString)
+
+    def executeRequests(projectName: String, devName: String, fileName: String, sharedVersion: String): Unit = {
+      var sharedVersionToUse = if (sharedVersion == null) "" else sharedVersion
+      if (projectName.equals(ConfigurationName.Shared.toString) && sharedVersion == null) {
+        sharedVersionToUse = getLatestVersion
+      }
+      val configurations = HTTPManager.getConfigurations(projectName + sharedVersionToUse, devName).orNull
+      if (configurations == null) {
+        return
+      }
+      val decodedString = Utils.base64Decoder(configurations)
+      Utils.writeFile(fileName, decodedString)
+    }
+    //Unique
+    executeRequests(configurationName.toString, devName.toString, "uniqueremotecofig.conf", null)
+    //Shared
+    executeRequests(ConfigurationName.Shared.toString, devName.toString, "sharedremoteconfig.conf", sharedVersion)
   }
 }

@@ -20,3 +20,6 @@ libraryDependencies ++= Seq(
   "io.circe"  %% "circe-generic"  % circeVersion,
   "io.circe"  %% "circe-parser"   % circeVersion
 )
+
+libraryDependencies += "com.typesafe.scala-logging" %% "scala-logging" % "3.9.2"
+

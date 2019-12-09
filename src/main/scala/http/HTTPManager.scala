@@ -1,6 +1,6 @@
 package http
 
-import http.requests.BaseRequest
+import http.requests.{BaseRequest, GetLatestVersion}
 import http.requests.project.configuration.GetConfigurationRequest
 import scalaj.http._
 
@@ -35,6 +35,16 @@ object HTTPManager extends API {
     var getConfigurationRequest = new GetConfigurationRequest(httpSettingFactory.configBaseUrl, projectName, devName)
     val response = executeHttpRequest(getConfigurationRequest).orNull
     val parsedResponse = getConfigurationRequest.parseResponse(response)
+    if (response != null) {
+      return Option(parsedResponse)
+    }
+    null
+  }
+
+  override def getLatsetVersion: Option[String] = {
+    var getLatestVersion = new GetLatestVersion(httpSettingFactory.configBaseUrl)
+    val response = executeHttpRequest(getLatestVersion).orNull
+    val parsedResponse = getLatestVersion.parseResponse(response)
     if (response != null) {
       return Option(parsedResponse)
     }
