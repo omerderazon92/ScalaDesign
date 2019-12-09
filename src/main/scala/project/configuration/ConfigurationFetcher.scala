@@ -1,9 +1,6 @@
 package project.configuration
 
 import http.HTTPManager
-import http.responses.ConsulKV
-import io.circe.generic.semiauto.deriveDecoder
-import io.circe.{Decoder, parser}
 import project.configuration
 import project.configuration.DevName.DevName
 import project.configuration.ProjectName.ProjectName
@@ -45,7 +42,7 @@ object ConfigurationFetcher extends ConfigurationManager {
   override def fetchConfiguration(): Unit = {
     val results = HTTPManager.getConfigurations(projectName.toString, devName.toString).orNull
     if (results == null) {
-      return null
+      return
     }
     val decodedString = Utils.base64Decoder(results)
     Utils.writeFile("appremoteconf.conf", decodedString)
