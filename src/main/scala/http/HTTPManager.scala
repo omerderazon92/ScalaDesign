@@ -1,6 +1,7 @@
 package http
 
-import http.requests.{BaseRequest, GetConfigurationRequest}
+import http.requests.BaseRequest
+import http.requests.project.configuration.GetConfigurationRequest
 import scalaj.http._
 
 /**
@@ -33,8 +34,9 @@ object HTTPManager extends API {
   def getConfigurations(projectName: String, devName: String): Option[String] = {
     var getConfigurationRequest = new GetConfigurationRequest(httpSettingFactory.configBaseUrl, projectName, devName)
     val response = executeHttpRequest(getConfigurationRequest).orNull
+    val parsedResponse = getConfigurationRequest.parseResponse(response)
     if (response != null) {
-      return Option(response.body)
+      return Option(parsedResponse)
     }
     null
   }

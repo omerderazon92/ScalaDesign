@@ -12,6 +12,4 @@ abstract class ConfigurationManager {
   var sharedVersion: String
 
   def fetchConfiguration()
-
-  def extractValue(response: String): Option[String]
 }

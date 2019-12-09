@@ -4,5 +4,5 @@ import scalaj.http.HttpResponse
 
 abstract class BaseRequest {
   val requestUrl: String
-  def parseResponse[T,U](respone:HttpResponse[U]):T
+  def parseResponse(response:HttpResponse[String]):String
 }

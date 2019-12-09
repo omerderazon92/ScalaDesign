@@ -44,26 +44,10 @@ object ConfigurationFetcher extends ConfigurationManager {
     */
   override def fetchConfiguration(): Unit = {
     val results = HTTPManager.getConfigurations(projectName.toString, devName.toString).orNull
-    val value = extractValue(results).orNull
-    if (value == null) {
+    if (results == null) {
       return null
     }
-    val decodedString = Utils.base64Decoder(value)
+    val decodedString = Utils.base64Decoder(results)
     Utils.writeFile("appremoteconf.conf", decodedString)
-  }
-
-  /**
-    * Extract the right value from the response
-    *
-    * @param response
-    * @return
-    */
-  override def extractValue(response: String): Option[String] = {
-    implicit val staffDecoder: Decoder[ConsulKV] = deriveDecoder[ConsulKV]
-    val decodeResult = parser.decode[List[ConsulKV]](response)
-    decodeResult match {
-      case Right(res) => Option(res.head.Value)
-      case Left(error) => null
-    }
   }
 }
