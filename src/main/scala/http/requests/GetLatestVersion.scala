@@ -11,8 +11,8 @@ import scala.collection.mutable.ListBuffer
   *
   * @param url
   */
-class GetLatestVersion(url: String) extends BaseRequest {
-  override val requestUrl: String = url + "prod/?keys=true"
+class GetLatestVersion(url: String, devName: String) extends BaseRequest {
+  override val requestUrl: String = url + devName + "/?keys=true"
 
   override def parseResponse(response: HttpResponse[String]): String = {
     val matcher = Pattern.compile("[0-9].[0-9]").matcher(response.body)

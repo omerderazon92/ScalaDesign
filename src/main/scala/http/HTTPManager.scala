@@ -2,6 +2,7 @@ package http
 
 import http.requests.{BaseRequest, GetLatestVersion}
 import http.requests.project.configuration.GetConfigurationRequest
+import project.configuration.DevName.DevName
 import scalaj.http._
 
 /**
@@ -14,6 +15,7 @@ object HTTPManager extends API {
 
   /**
     * A generic HTTP requests executer
+    *
     * @param request generic base request
     * @return returns an optional HTTP response
     */
@@ -26,8 +28,9 @@ object HTTPManager extends API {
 
   /**
     * Gets the configuration from Consul
+    *
     * @param projectName the project that we want the configuration of
-    * @param devName the developer that we want the configuration of
+    * @param devName     the developer that we want the configuration of
     * @return
     */
   def getConfigurations(projectName: String, devName: String): Option[String] = {
@@ -42,10 +45,11 @@ object HTTPManager extends API {
 
   /**
     * Gets the latest version of the shared configuration
+    *
     * @return
     */
-  override def getLatsetVersion: Option[String] = {
-    var getLatestVersion = new GetLatestVersion(httpSettingFactory.configBaseUrl)
+  override def getLatsetVersion(devName: String): Option[String] = {
+    var getLatestVersion = new GetLatestVersion(httpSettingFactory.configBaseUrl, devName)
     val response = executeHttpRequest(getLatestVersion).orNull
     val parsedResponse = getLatestVersion.parseResponse(response)
     if (response != null) {
