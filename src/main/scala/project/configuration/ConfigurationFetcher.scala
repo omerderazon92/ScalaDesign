@@ -6,6 +6,8 @@ import project.configuration.DevName.DevName
 import project.configuration.ConfigurationName.ConfigurationName
 import util.Utils
 
+import scala.concurrent.{ExecutionContext, Future}
+
 object DevName extends Enumeration {
   type DevName = Value
   val OmerD: configuration.DevName.Value = Value("OmerD")
@@ -37,6 +39,7 @@ object ConfigurationFetcher extends ConfigurationManager {
     * One for the unique project configuration and other for the shared configurations
     */
   override def fetchConfiguration(): Unit = {
+
     def executeRequest(devName: DevName = devName, configName: String, version: String): Unit = {
       val encodedResponse = HTTPManager.getConfigurations(devName, configName, version).orNull
       if (encodedResponse != null) {
@@ -44,9 +47,9 @@ object ConfigurationFetcher extends ConfigurationManager {
         Utils.writeFile(configName, decodedResponse)
       }
     }
-
+    //Fetch Configuration begins here
     for (config <- configToFetch) {
-      var versionToPull = config._2
+      var versionToPull: String = config._2
       if (config._2 == null) {
         versionToPull = getLatestConfigVersion(config._1)
       }
