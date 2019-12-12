@@ -2,7 +2,7 @@ import project.configuration.{ConfigurationFetcher, DevName, ConfigurationName}
 
 object Main {
   def main(args: Array[String]): Unit = {
-    ConfigurationFetcher.apply(ConfigurationName.Cliff, sharedVersion = "2.0")
+    ConfigurationFetcher.apply(DevName.OmerD, (ConfigurationName.Shared, null), (ConfigurationName.Cliff, null))
     ConfigurationFetcher.fetchConfiguration()
   }
 }

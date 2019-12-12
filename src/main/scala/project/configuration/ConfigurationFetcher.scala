@@ -24,14 +24,12 @@ object ConfigurationName extends Enumeration {
   */
 object ConfigurationFetcher extends ConfigurationManager {
 
-  override var configurationName: ConfigurationName = _
   override var devName: DevName = _
-  override var sharedVersion: String = _
+  override var configToFetch: Seq[(ConfigurationName, String)] = _
 
-  def apply(configurationName: ConfigurationName, devName: DevName = DevName.Prod, sharedVersion: String = null): Unit = {
-    this.configurationName = configurationName
+  def apply(devName: DevName, configToFetch: (ConfigurationName, String)*): Unit = {
     this.devName = devName
-    this.sharedVersion = sharedVersion
+    this.configToFetch = configToFetch
   }
 
   /**
@@ -39,26 +37,25 @@ object ConfigurationFetcher extends ConfigurationManager {
     * One for the unique project configuration and other for the shared configurations
     */
   override def fetchConfiguration(): Unit = {
-
-    def getLatestVersion(devName: String): String = {
-      HTTPManager.getLatsetVersion(devName).getOrElse("")
+    def executeRequest(devName: DevName = devName, configName: String, version: String): Unit = {
+      val encodedResponse = HTTPManager.getConfigurations(devName, configName, version).orNull
+      if (encodedResponse != null) {
+        val decodedResponse = Utils.base64Decoder(encodedResponse)
+        Utils.writeFile(configName, decodedResponse)
+      }
     }
 
-    def executeRequests(projectName: String, devName: String, fileName: String, sharedVersion: String): Unit = {
-      var sharedVersionToUse = if (sharedVersion == null) "" else sharedVersion
-      if (projectName.equals(ConfigurationName.Shared.toString) && sharedVersion == null) {
-        sharedVersionToUse = getLatestVersion(devName)
+    for (config <- configToFetch) {
+      var versionToPull = config._2
+      if (config._2 == null) {
+        versionToPull = getLatestConfigVersion(config._1)
       }
-      val configurations = HTTPManager.getConfigurations(projectName + sharedVersionToUse, devName).orNull
-      if (configurations == null) {
-        return
-      }
-      val decodedString = Utils.base64Decoder(configurations)
-      Utils.writeFile(fileName, decodedString)
+      executeRequest(configName = config._1.toString, version = versionToPull)
     }
-    //Unique
-    executeRequests(configurationName.toString, devName.toString, "uniqueremotecofig.conf", null)
-    //Shared
-    executeRequests(ConfigurationName.Shared.toString, devName.toString, "sharedremoteconfig.conf", sharedVersion)
+  }
+
+  override def getLatestConfigVersion(project: ConfigurationName): String = {
+    val maybeString = HTTPManager.getLatsetVersion(devName.toString, project.toString).orNull
+    maybeString
   }
 }

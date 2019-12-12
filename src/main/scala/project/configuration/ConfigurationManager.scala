@@ -7,9 +7,10 @@ import project.configuration.ConfigurationName.ConfigurationName
   * Contract for managing the project configurations
   */
 abstract class ConfigurationManager {
-  var configurationName: ConfigurationName
   var devName: DevName
-  var sharedVersion: String
+  var configToFetch: Seq[(ConfigurationName, String)]
+
+  def getLatestConfigVersion(project: ConfigurationName): String
 
   def fetchConfiguration()
 }

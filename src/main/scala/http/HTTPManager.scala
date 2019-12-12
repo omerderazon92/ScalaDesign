@@ -26,33 +26,21 @@ object HTTPManager extends API {
     null
   }
 
-  /**
-    * Gets the configuration from Consul
-    *
-    * @param projectName the project that we want the configuration of
-    * @param devName     the developer that we want the configuration of
-    * @return
-    */
-  def getConfigurations(projectName: String, devName: String): Option[String] = {
-    var getConfigurationRequest = new GetConfigurationRequest(httpSettingFactory.configBaseUrl, projectName, devName)
+  override def getConfigurations(devName: DevName, configurationName: String, version: String): Option[String] = {
+    var getConfigurationRequest = new GetConfigurationRequest(httpSettingFactory.sharedConfigBaseUrl, devName.toString, configurationName, version)
     val response = executeHttpRequest(getConfigurationRequest).orNull
-    if (response != null) {
-      val parsedResponse = getConfigurationRequest.parseResponse(response)
+    val parsedResponse = getConfigurationRequest.parseResponse(response)
+    if (parsedResponse != null) {
       return Option(parsedResponse)
     }
     null
   }
 
-  /**
-    * Gets the latest version of the shared configuration
-    *
-    * @return
-    */
-  override def getLatsetVersion(devName: String): Option[String] = {
-    var getLatestVersion = new GetLatestVersion(httpSettingFactory.configBaseUrl, devName)
+  override def getLatsetVersion(devName: String, configurationName: String): Option[String] = {
+    var getLatestVersion = new GetLatestVersion(httpSettingFactory.sharedConfigBaseUrl, devName.toString, configurationName)
     val response = executeHttpRequest(getLatestVersion).orNull
     val parsedResponse = getLatestVersion.parseResponse(response)
-    if (response != null) {
+    if (parsedResponse != null) {
       return Option(parsedResponse)
     }
     null
