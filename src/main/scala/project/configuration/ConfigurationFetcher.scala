@@ -46,9 +46,10 @@ object ConfigurationFetcher extends ConfigurationManager {
       logger.info("Fetching configuration of " + devName + " " + configName + " Version " + version + "......")
       val encodedResponse = HTTPManager.getConfigurations(devName, configName, version).orNull
       if (encodedResponse != null) {
-        logger.info("Was able to fetch the configurations, writing them into a conf file named " + configName + version)
+        val fileName = configName.toLowerCase + version.toLowerCase + ".conf"
+        logger.info("Was able to fetch the configurations successfully, writing them into a conf file named " + fileName)
         val decodedResponse = Utils.base64Decoder(encodedResponse)
-        Utils.writeFile(configName, decodedResponse)
+        Utils.writeFile(fileName, decodedResponse)
       } else {
         logger.error("Couldn't achieve the configuration of " + configName + version)
       }
