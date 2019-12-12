@@ -26,22 +26,22 @@ object HTTPManager extends API {
     null
   }
 
-  override def getConfigurations(devName: DevName, configurationName: String, version: String): Option[String] = {
+  override def getConfigurations(devName: DevName, configurationName: String, version: String): String = {
     var getConfigurationRequest = new GetConfigurationRequest(httpSettingFactory.sharedConfigBaseUrl, devName.toString, configurationName, version)
-    val response = executeHttpRequest(getConfigurationRequest).orNull
-    val parsedResponse = getConfigurationRequest.parseResponse(response)
-    if (parsedResponse != null) {
-      return Option(parsedResponse)
+    val response = executeHttpRequest(getConfigurationRequest)
+    if (response != null) {
+      val parsedResponse = getConfigurationRequest.parseResponse(response.orNull)
+      return parsedResponse
     }
     null
   }
 
-  override def getLatsetVersion(devName: String, configurationName: String): Option[String] = {
+  override def getLatsetVersion(devName: String, configurationName: String): String = {
     var getLatestVersion = new GetLatestVersion(httpSettingFactory.sharedConfigBaseUrl, devName.toString, configurationName)
-    val response = executeHttpRequest(getLatestVersion).orNull
-    val parsedResponse = getLatestVersion.parseResponse(response)
-    if (parsedResponse != null) {
-      return Option(parsedResponse)
+    val response = executeHttpRequest(getLatestVersion)
+    if (response != null) {
+      val parsedResponse = getLatestVersion.parseResponse(response.orNull)
+      return parsedResponse
     }
     null
   }

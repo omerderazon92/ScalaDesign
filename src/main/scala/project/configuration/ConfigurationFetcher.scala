@@ -44,7 +44,7 @@ object ConfigurationFetcher extends ConfigurationManager {
 
     def executeRequest(devName: DevName = devName, configName: String, version: String): Unit = {
       logger.info("Fetching configuration of " + devName + " " + configName + " Version " + version + "......")
-      val encodedResponse = HTTPManager.getConfigurations(devName, configName, version).orNull
+      val encodedResponse = HTTPManager.getConfigurations(devName, configName, version)
       if (encodedResponse != null) {
         val fileName = configName.toLowerCase + version.toLowerCase + ".conf"
         logger.info("Was able to fetch the configurations successfully, writing them into a conf file named " + fileName)
@@ -66,7 +66,7 @@ object ConfigurationFetcher extends ConfigurationManager {
 
   override def getLatestConfigVersion(project: ConfigurationName): String = {
     logger.info("Trying to achieve the latest version of " + project)
-    val maybeString = HTTPManager.getLatsetVersion(devName.toString, project.toString).orNull
+    val maybeString = HTTPManager.getLatsetVersion(devName.toString, project.toString)
     if (maybeString != null) {
       logger.info("The latest version of " + project + " is " + maybeString)
     } else {
