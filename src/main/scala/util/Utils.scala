@@ -8,6 +8,8 @@ import scalaj.http.Base64
   * Project utils
   */
 object Utils {
+  var logsDelimiter = "-------------------------------------------------------------"
+
   def base64Decoder(input: String): String = {
     Base64.decodeString(input)
   }

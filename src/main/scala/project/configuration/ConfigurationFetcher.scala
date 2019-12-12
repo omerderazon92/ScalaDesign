@@ -8,6 +8,8 @@ import project.configuration.ConfigurationName.ConfigurationName
 import project.configuration.DevName.DevName
 import util.Utils
 
+import scala.collection.mutable
+
 object DevName extends Enumeration {
   type DevName = Value
   val OmerD: configuration.DevName.Value = Value("OmerD")
@@ -28,6 +30,7 @@ object ConfigurationFetcher extends ConfigurationManager {
 
   override var devName: DevName = _
   override var configToFetch: Seq[(ConfigurationName, String)] = _
+  override var fileNameMap = new mutable.HashMap[String, String]()
   val logger = Logger(LoggerFactory.getLogger("Configuration Fetcher"))
 
 
@@ -43,15 +46,18 @@ object ConfigurationFetcher extends ConfigurationManager {
   override def fetchConfiguration(): Unit = {
 
     def executeRequest(devName: DevName = devName, configName: String, version: String): Unit = {
-      logger.info("Fetching configuration of " + devName + " " + configName + " Version " + version + "......")
+      logger.info("Trying to fetch the configuration of " + devName + " " + configName + " Version " + version + "......")
       val encodedResponse = HTTPManager.getConfigurations(devName, configName, version)
       if (encodedResponse != null) {
         val fileName = configName.toLowerCase + version.toLowerCase + ".conf"
-        logger.info("Was able to fetch the configurations successfully, writing them into a conf file named " + fileName)
+        logger.info("Was able to fetch the configurations successfully, writing them into a conf file named " + "\"" + fileName + "\"")
+        logger.info(Utils.logsDelimiter)
         val decodedResponse = Utils.base64Decoder(encodedResponse)
         Utils.writeFile(fileName, decodedResponse)
+        fileNameMap.put(configName, fileName)
       } else {
-        logger.error("Couldn't achieve the configuration of " + configName + version)
+        logger.error("Couldn't achieve the configuration of " + configName + " " + version + " Maybe version doesn't exist in Consul-KV ")
+        logger.info(Utils.logsDelimiter)
       }
     }
     //Fetch Configuration begins here
@@ -74,4 +80,5 @@ object ConfigurationFetcher extends ConfigurationManager {
     }
     maybeString
   }
+
 }
