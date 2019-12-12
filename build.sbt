@@ -16,10 +16,13 @@ libraryDependencies += "org.json4s" %% "json4s-native" % "3.7.0-M1"
 
 val circeVersion = "0.7.0"
 libraryDependencies ++= Seq(
-  "io.circe"  %% "circe-core"     % circeVersion,
-  "io.circe"  %% "circe-generic"  % circeVersion,
-  "io.circe"  %% "circe-parser"   % circeVersion
+  "io.circe" %% "circe-core" % circeVersion,
+  "io.circe" %% "circe-generic" % circeVersion,
+  "io.circe" %% "circe-parser" % circeVersion
 )
 
 libraryDependencies += "com.typesafe.scala-logging" %% "scala-logging" % "3.9.2"
+
+libraryDependencies += "ch.qos.logback" % "logback-classic" % "1.2.3"
+
 

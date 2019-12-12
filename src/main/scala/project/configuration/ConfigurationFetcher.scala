@@ -1,12 +1,12 @@
 package project.configuration
 
+import com.typesafe.scalalogging.Logger
 import http.HTTPManager
+import org.slf4j.LoggerFactory
 import project.configuration
-import project.configuration.DevName.DevName
 import project.configuration.ConfigurationName.ConfigurationName
+import project.configuration.DevName.DevName
 import util.Utils
-
-import scala.concurrent.{ExecutionContext, Future}
 
 object DevName extends Enumeration {
   type DevName = Value
@@ -28,6 +28,8 @@ object ConfigurationFetcher extends ConfigurationManager {
 
   override var devName: DevName = _
   override var configToFetch: Seq[(ConfigurationName, String)] = _
+  val logger = Logger(LoggerFactory.getLogger("Configuration Fetcher"))
+
 
   def apply(devName: DevName, configToFetch: (ConfigurationName, String)*): Unit = {
     this.devName = devName
@@ -41,10 +43,14 @@ object ConfigurationFetcher extends ConfigurationManager {
   override def fetchConfiguration(): Unit = {
 
     def executeRequest(devName: DevName = devName, configName: String, version: String): Unit = {
+      logger.info("Fetching configuration of " + devName + " " + configName + " Version " + version + "......")
       val encodedResponse = HTTPManager.getConfigurations(devName, configName, version).orNull
       if (encodedResponse != null) {
+        logger.info("Was able to fetch the configurations, writing them into a conf file named " + configName + version)
         val decodedResponse = Utils.base64Decoder(encodedResponse)
         Utils.writeFile(configName, decodedResponse)
+      } else {
+        logger.error("Couldn't achieve the configuration of " + configName + version)
       }
     }
     //Fetch Configuration begins here
@@ -58,7 +64,13 @@ object ConfigurationFetcher extends ConfigurationManager {
   }
 
   override def getLatestConfigVersion(project: ConfigurationName): String = {
+    logger.info("Trying to achieve the latest version of " + project)
     val maybeString = HTTPManager.getLatsetVersion(devName.toString, project.toString).orNull
+    if (maybeString != null) {
+      logger.info("The latest version of " + project + " is " + maybeString)
+    } else {
+      logger.error("Couldn't achieve latest version")
+    }
     maybeString
   }
 }

@@ -156,6 +156,21 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [compile->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [compile->compile(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->default]
+[debug] sbt-chain: Checking cache for: dependency: com.typesafe.scala-logging#scala-logging_2.12;3.9.2 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: com.typesafe.scala-logging#scala-logging_2.12;3.9.2
+[debug] 	found com.typesafe.scala-logging#scala-logging_2.12;3.9.2 in sbt-chain
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->default(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: org.typelevel#cats-core_2.12;0.9.0 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.typelevel#cats-core_2.12;0.9.0
@@ -249,6 +264,32 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [compile->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [compile->compile(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->default]
+[debug] sbt-chain: Checking cache for: dependency: ch.qos.logback#logback-classic;1.2.3 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: ch.qos.logback#logback-classic;1.2.3
+[debug] 	found ch.qos.logback#logback-classic;1.2.3 in sbt-chain
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->default(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.7.25 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.25
+[debug] 	found org.slf4j#slf4j-api;1.7.25 in sbt-chain
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->runtime(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->master(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: org.typelevel#macro-compat_2.12;1.1.1 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.typelevel#macro-compat_2.12;1.1.1
@@ -439,6 +480,17 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [compile->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [compile->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->compile]
+[debug] sbt-chain: Checking cache for: dependency: ch.qos.logback#logback-core;1.2.3 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: ch.qos.logback#logback-core;1.2.3
+[debug] 	found ch.qos.logback#logback-core;1.2.3 in sbt-chain
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->runtime(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->master(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->compile(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson.core#jackson-core;2.10.0 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-core;2.10.0
@@ -572,6 +624,18 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [compile->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [compile->compile(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->default]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->default(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [compile->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [compile->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [compile->compile]
@@ -640,6 +704,26 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [compile->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [compile->compile(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->default]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->default(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->runtime(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->master(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [compile->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [compile->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [compile->compile]
@@ -781,6 +865,14 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [compile->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [compile->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->runtime(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->master(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->compile(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [compile->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [compile->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [compile->compile]
@@ -905,6 +997,18 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [runtime->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [runtime->compile(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [runtime->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->default]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->default(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [runtime->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [runtime->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [runtime->compile]
@@ -973,6 +1077,26 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [runtime->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [runtime->compile(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [runtime->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->default]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->default(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->runtime(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->master(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [runtime->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [runtime->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [runtime->compile]
@@ -1114,6 +1238,14 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [runtime->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [runtime->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [runtime->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [runtime->runtime(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [runtime->master(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [runtime->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [runtime->compile(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [runtime->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [runtime->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [runtime->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [runtime->compile]
@@ -1242,6 +1374,18 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [compile->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [compile->compile(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->default]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->default(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [compile->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [compile->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [compile->compile]
@@ -1310,6 +1454,26 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [compile->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [compile->compile(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->default]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->default(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->runtime(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->master(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [compile->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [compile->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [compile->compile]
@@ -1451,6 +1615,14 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [compile->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [compile->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->runtime(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->master(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->compile(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [compile->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [compile->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [compile->compile]
@@ -1575,6 +1747,18 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [runtime->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [runtime->compile(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [runtime->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->default]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->default(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [runtime->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [runtime->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [runtime->compile]
@@ -1643,6 +1827,26 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [runtime->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [runtime->compile(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [runtime->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->default]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->default(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->runtime(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->master(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [runtime->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [runtime->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [runtime->compile]
@@ -1784,6 +1988,14 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [runtime->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [runtime->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [runtime->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [runtime->runtime(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [runtime->master(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [runtime->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [runtime->compile(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [runtime->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [runtime->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [runtime->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [runtime->compile]
@@ -1908,6 +2120,18 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [test->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [test->compile(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [test->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [test->default]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [test->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [test->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [test->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [test->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [test->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [test->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [test->default(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [test->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [test->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [test->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [test->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [test->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [test->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [test->compile]
@@ -1976,6 +2200,26 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [test->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [test->compile(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [test->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [test->default]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [test->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [test->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [test->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [test->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [test->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [test->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [test->default(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [test->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [test->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [test->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [test->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->runtime(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->master(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->compile(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [test->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [test->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [test->compile]
@@ -2117,6 +2361,14 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [test->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [test->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [test->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [test->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [test->runtime(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [test->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [test->master(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [test->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [test->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [test->compile(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [test->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [test->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [test->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [test->compile]
@@ -2248,6 +2500,18 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [compile->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [compile->compile(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->default]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->default(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [compile->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [compile->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [compile->compile]
@@ -2316,6 +2580,26 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [compile->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [compile->compile(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->default]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->default(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->runtime(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->master(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [compile->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [compile->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [compile->compile]
@@ -2457,6 +2741,14 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [compile->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [compile->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->runtime(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->master(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->compile(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [compile->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [compile->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [compile->compile]
@@ -2583,6 +2875,18 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [compile-internal->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [compile-internal->compile(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [compile-internal->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile-internal->default]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile-internal->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile-internal->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile-internal->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile-internal->default(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile-internal->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile-internal->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile-internal->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [compile-internal->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [compile-internal->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [compile-internal->compile]
@@ -2651,6 +2955,26 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [compile-internal->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [compile-internal->compile(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [compile-internal->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile-internal->default]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile-internal->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile-internal->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile-internal->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile-internal->default(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile-internal->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile-internal->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile-internal->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile-internal->runtime(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile-internal->master(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile-internal->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile-internal->compile(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile-internal->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [compile-internal->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [compile-internal->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [compile-internal->compile]
@@ -2792,6 +3116,14 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [compile-internal->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [compile-internal->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [compile-internal->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile-internal->runtime(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile-internal->master(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile-internal->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile-internal->compile(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile-internal->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [compile-internal->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [compile-internal->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [compile-internal->compile]
@@ -2920,6 +3252,18 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [compile->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [compile->compile(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->default]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->default(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [compile->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [compile->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [compile->compile]
@@ -2988,6 +3332,26 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [compile->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [compile->compile(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->default]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->default(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->runtime(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->master(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [compile->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [compile->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [compile->compile]
@@ -3129,6 +3493,14 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [compile->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [compile->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->runtime(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->master(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->compile(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [compile->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [compile->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [compile->compile]
@@ -3253,6 +3625,18 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [runtime->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [runtime->compile(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [runtime->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->default]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->default(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [runtime->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [runtime->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [runtime->compile]
@@ -3321,6 +3705,26 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [runtime->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [runtime->compile(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [runtime->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->default]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->default(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->runtime(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->master(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [runtime->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [runtime->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [runtime->compile]
@@ -3462,6 +3866,14 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [runtime->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [runtime->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [runtime->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [runtime->runtime(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [runtime->master(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [runtime->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [runtime->compile(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [runtime->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [runtime->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [runtime->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [runtime->compile]
@@ -3587,6 +3999,18 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [runtime-internal->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [runtime-internal->compile(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [runtime-internal->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime-internal->default]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime-internal->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime-internal->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime-internal->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime-internal->default(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime-internal->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime-internal->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime-internal->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [runtime-internal->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [runtime-internal->compile]
@@ -3655,6 +4079,26 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [runtime-internal->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [runtime-internal->compile(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [runtime-internal->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime-internal->default]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime-internal->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime-internal->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime-internal->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime-internal->default(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime-internal->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime-internal->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime-internal->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime-internal->runtime(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime-internal->master(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime-internal->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime-internal->compile(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime-internal->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [runtime-internal->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [runtime-internal->compile]
@@ -3796,6 +4240,14 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [runtime-internal->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [runtime-internal->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [runtime-internal->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [runtime-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [runtime-internal->runtime(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [runtime-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [runtime-internal->master(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [runtime-internal->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [runtime-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [runtime-internal->compile(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [runtime-internal->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [runtime-internal->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [runtime-internal->compile]
@@ -3925,6 +4377,18 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [compile->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [compile->compile(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->default]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->default(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [compile->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [compile->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [compile->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [compile->compile]
@@ -3993,6 +4457,26 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [compile->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [compile->compile(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->default]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->default(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->runtime(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->master(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->compile(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [compile->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [compile->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [compile->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [compile->compile]
@@ -4134,6 +4618,14 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [compile->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [compile->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [compile->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->runtime(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->master(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->compile(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [compile->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [compile->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [compile->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [compile->compile]
@@ -4258,6 +4750,18 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [runtime->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [runtime->compile(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [runtime->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->default]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->default(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [runtime->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [runtime->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [runtime->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [runtime->compile]
@@ -4326,6 +4830,26 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [runtime->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [runtime->compile(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [runtime->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->default]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->default(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [runtime->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->runtime(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->master(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->compile(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [runtime->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [runtime->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [runtime->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [runtime->compile]
@@ -4467,6 +4991,14 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [runtime->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [runtime->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [runtime->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [runtime->runtime(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [runtime->master(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [runtime->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [runtime->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [runtime->compile(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [runtime->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [runtime->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [runtime->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [runtime->compile]
@@ -4591,6 +5123,18 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [test->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [test->compile(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [test->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [test->default]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [test->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [test->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [test->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [test->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [test->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [test->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [test->default(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [test->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [test->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [test->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [test->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [test->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [test->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [test->compile]
@@ -4659,6 +5203,26 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [test->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [test->compile(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [test->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [test->default]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [test->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [test->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [test->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [test->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [test->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [test->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [test->default(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [test->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [test->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [test->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [test->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->runtime(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->master(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->compile(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [test->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [test->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [test->compile]
@@ -4800,6 +5364,14 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [test->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [test->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [test->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [test->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [test->runtime(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [test->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [test->master(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [test->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [test->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [test->compile(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [test->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [test->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [test->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [test->compile]
@@ -4926,6 +5498,18 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [test-internal->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [test-internal->compile(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.reactivestreams#reactive-streams;1.0.2 [test-internal->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [test-internal->default]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [test-internal->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [test-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [test-internal->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [test-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [test-internal->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [test-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [test-internal->default(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [test-internal->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [test-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [test-internal->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.scala-logging#scala-logging_2.12;3.9.2 [test-internal->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [test-internal->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [test-internal->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#cats-core_2.12;0.9.0 [test-internal->compile]
@@ -4994,6 +5578,26 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [test-internal->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [test-internal->compile(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.typesafe.akka#akka-protobuf_2.12;2.5.23 [test-internal->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [test-internal->default]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [test-internal->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [test-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [test-internal->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [test-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [test-internal->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [test-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [test-internal->default(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [test-internal->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [test-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [test-internal->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-classic;1.2.3 [test-internal->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test-internal->runtime(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test-internal->master(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test-internal->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test-internal->compile(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.slf4j#slf4j-api;1.7.25 [test-internal->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [test-internal->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [test-internal->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.typelevel#macro-compat_2.12;1.1.1 [test-internal->compile]
@@ -5135,6 +5739,14 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [test-internal->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [test-internal->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->org.json4s#json4s-jackson_2.12;3.7.0-M1 [test-internal->master]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [test-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [test-internal->runtime(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [test-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [test-internal->master(compile)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [test-internal->runtime]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [test-internal->compile]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [test-internal->compile(*)]
+[debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->ch.qos.logback#logback-core;1.2.3 [test-internal->master]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [test-internal->compile]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [test-internal->runtime(*)]
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.10.0 [test-internal->compile]
@@ -5212,118 +5824,62 @@
 [debug] == resolving dependencies configfetcher#configfetcher$sources;0.1->jline#jline;2.14.6 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 		tried /Users/oderazon/.ivy2/local/org.spire-math/jawn-parser_2.12/0.10.4/srcs/jawn-parser_2.12-sources.jar
+[debug] 	[NOT REQUIRED] org.typelevel#cats-macros_2.12;0.9.0!cats-macros_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.spire-math#jawn-parser_2.12;0.10.4!jawn-parser_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.8!paranamer.jar(src)
 [debug] 	[NOT REQUIRED] org.json4s#json4s-core_2.12;3.7.0-M1!json4s-core_2.12.jar(src)
-[debug] 		tried /Users/oderazon/.ivy2/local/org.typelevel/cats-macros_2.12/0.9.0/srcs/cats-macros_2.12-sources.jar
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.10.0!jackson-databind.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-stream_2.12;2.5.23!akka-stream_2.12.jar(src)
-[debug] 		tried https://repo1.maven.org/maven2/org/spire-math/jawn-parser_2.12/0.10.4/jawn-parser_2.12-0.10.4-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/0.9.0/cats-macros_2.12-0.9.0-sources.jar
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.10.0!jackson-databind.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-core_2.12;10.1.10!akka-http-core_2.12.jar(src)
-[debug] 		tried /Users/oderazon/.ivy2/local/org.typelevel/cats-kernel_2.12/0.9.0/srcs/cats-kernel_2.12-sources.jar
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1!scala-parser-combinators_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.typelevel#cats-kernel_2.12;0.9.0!cats-kernel_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.10.0!jackson-annotations.jar(src)
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/0.9.0/cats-kernel_2.12-0.9.0-sources.jar
-[debug] 		tried /Users/oderazon/.ivy2/local/io.circe/circe-jawn_2.12/0.7.0/srcs/circe-jawn_2.12-sources.jar
 [debug] 	[NOT REQUIRED] org.json4s#json4s-scalap_2.12;3.7.0-M1!json4s-scalap_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.2!reactive-streams.jar(src)
-[debug] 		tried https://repo1.maven.org/maven2/io/circe/circe-jawn_2.12/0.7.0/circe-jawn_2.12-0.7.0-sources.jar
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http_2.12;10.1.10!akka-http_2.12.jar(src)
-[debug] 		tried /Users/oderazon/.ivy2/local/org.typelevel/cats-core_2.12/0.9.0/srcs/cats-core_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/0.9.0/cats-core_2.12-0.9.0-sources.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1!scala-parser-combinators_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.scala-logging#scala-logging_2.12;3.9.2!scala-logging_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.typelevel#cats-core_2.12;0.9.0!cats-core_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.json4s#json4s-native_2.12;3.7.0-M1!json4s-native_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.json4s#json4s-ast_2.12;3.7.0-M1!json4s-ast_2.12.jar(src)
-[debug] 		tried /Users/oderazon/.ivy2/local/io.circe/circe-parser_2.12/0.7.0/srcs/circe-parser_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/io/circe/circe-parser_2.12/0.7.0/circe-parser_2.12-0.7.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/0.9.0/cats-kernel_2.12-0.9.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/0.9.0/cats-kernel_2.12-0.9.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/0.9.0/cats-core_2.12-0.9.0-sources.jar ...
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/0.9.0/cats-macros_2.12-0.9.0-sources.jar ...
-[info] downloading https://repo1.maven.org/maven2/org/spire-math/jawn-parser_2.12/0.10.4/jawn-parser_2.12-0.10.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/spire-math/jawn-parser_2.12/0.10.4/jawn-parser_2.12-0.10.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/0.9.0/cats-core_2.12-0.9.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/0.9.0/cats-macros_2.12-0.9.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/io/circe/circe-jawn_2.12/0.7.0/circe-jawn_2.12-0.7.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/circe/circe-jawn_2.12/0.7.0/circe-jawn_2.12-0.7.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/0.9.0/cats-kernel_2.12-0.9.0-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/0.9.0/cats-macros_2.12-0.9.0-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/0.9.0/cats-core_2.12-0.9.0-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/spire-math/jawn-parser_2.12/0.10.4/jawn-parser_2.12-0.10.4-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/io/circe/circe-parser_2.12/0.7.0/circe-parser_2.12-0.7.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/circe/circe-parser_2.12/0.7.0/circe-parser_2.12-0.7.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/circe/circe-jawn_2.12/0.7.0/circe-jawn_2.12-0.7.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/0.9.0/cats-kernel_2.12-0.9.0-sources.jar
-[info] 	[SUCCESSFUL ] org.typelevel#cats-kernel_2.12;0.9.0!cats-kernel_2.12.jar(src) (527ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/0.9.0/cats-macros_2.12-0.9.0-sources.jar
-[debug] 		tried /Users/oderazon/.ivy2/local/com.github.mpilquist/simulacrum_2.12/0.10.0/srcs/simulacrum_2.12-sources.jar
-[info] 	[SUCCESSFUL ] org.typelevel#cats-macros_2.12;0.9.0!cats-macros_2.12.jar(src) (565ms)
-[debug] 		tried https://repo1.maven.org/maven2/com/github/mpilquist/simulacrum_2.12/0.10.0/simulacrum_2.12-0.10.0-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/spire-math/jawn-parser_2.12/0.10.4/jawn-parser_2.12-0.10.4-sources.jar
+[debug] 	[NOT REQUIRED] io.circe#circe-parser_2.12;0.7.0!circe-parser_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.github.mpilquist#simulacrum_2.12;0.10.0!simulacrum_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-protobuf_2.12;2.5.23!akka-protobuf_2.12.jar(src)
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/0.9.0/cats-core_2.12-0.9.0-sources.jar
+[debug] 		tried /Users/oderazon/.ivy2/local/ch.qos.logback/logback-classic/1.2.3/srcs/logback-classic-sources.jar
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src)
 [debug] 	[NOT REQUIRED] org.typelevel#macro-compat_2.12;1.1.1!macro-compat_2.12.jar(src)
-[info] 	[SUCCESSFUL ] org.typelevel#cats-core_2.12;0.9.0!cats-core_2.12.jar(src) (564ms)
-[info] 	[SUCCESSFUL ] org.spire-math#jawn-parser_2.12;0.10.4!jawn-parser_2.12.jar(src) (567ms)
+[debug] 		tried https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar
 [debug] 	[NOT REQUIRED] com.typesafe#ssl-config-core_2.12;0.3.7!ssl-config-core_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http_2.12;10.1.10!akka-http_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scalaj#scalaj-http_2.12;2.4.2!scalaj-http_2.12.jar(src)
-[debug] 		tried /Users/oderazon/.ivy2/local/io.circe/circe-core_2.12/0.7.0/srcs/circe-core_2.12-sources.jar
-[debug] 		tried /Users/oderazon/.ivy2/local/io.circe/circe-numbers_2.12/0.7.0/srcs/circe-numbers_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/io/circe/circe-core_2.12/0.7.0/circe-core_2.12-0.7.0-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/io/circe/circe-numbers_2.12/0.7.0/circe-numbers_2.12-0.7.0-sources.jar
+[debug] 	[NOT REQUIRED] io.circe#circe-jawn_2.12;0.7.0!circe-jawn_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe#config;1.3.3!config.jar(src)
+[debug] 	[NOT REQUIRED] io.circe#circe-numbers_2.12;0.7.0!circe-numbers_2.12.jar(src)
+[debug] 	[NOT REQUIRED] io.circe#circe-core_2.12;0.7.0!circe-core_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.7!scala-reflect.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.7!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-parsing_2.12;10.1.10!akka-parsing_2.12.jar(src)
-[debug] 		tried /Users/oderazon/.ivy2/local/io.circe/circe-generic_2.12/0.7.0/srcs/circe-generic_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/io/circe/circe-generic_2.12/0.7.0/circe-generic_2.12-0.7.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/io/circe/circe-core_2.12/0.7.0/circe-core_2.12-0.7.0-sources.jar ...
-[info] downloading https://repo1.maven.org/maven2/com/github/mpilquist/simulacrum_2.12/0.10.0/simulacrum_2.12-0.10.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/mpilquist/simulacrum_2.12/0.10.0/simulacrum_2.12-0.10.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/circe/circe-core_2.12/0.7.0/circe-core_2.12-0.7.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/circe/circe-parser_2.12/0.7.0/circe-parser_2.12-0.7.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/io/circe/circe-jawn_2.12/0.7.0/circe-jawn_2.12-0.7.0-sources.jar
-[info] 	[SUCCESSFUL ] io.circe#circe-jawn_2.12;0.7.0!circe-jawn_2.12.jar(src) (698ms)
-[debug] 		tried /Users/oderazon/.ivy2/local/com.chuusai/shapeless_2.12/2.3.2/srcs/shapeless_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.2/shapeless_2.12-2.3.2-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.2/shapeless_2.12-2.3.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.2/shapeless_2.12-2.3.2-sources.jar
-[info] downloading https://repo1.maven.org/maven2/io/circe/circe-generic_2.12/0.7.0/circe-generic_2.12-0.7.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/circe/circe-generic_2.12/0.7.0/circe-generic_2.12-0.7.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/io/circe/circe-numbers_2.12/0.7.0/circe-numbers_2.12-0.7.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/circe/circe-numbers_2.12/0.7.0/circe-numbers_2.12-0.7.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/circe/circe-core_2.12/0.7.0/circe-core_2.12-0.7.0-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/mpilquist/simulacrum_2.12/0.10.0/simulacrum_2.12-0.10.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/io/circe/circe-parser_2.12/0.7.0/circe-parser_2.12-0.7.0-sources.jar
-[info] 	[SUCCESSFUL ] io.circe#circe-parser_2.12;0.7.0!circe-parser_2.12.jar(src) (897ms)
+[debug] 	[NOT REQUIRED] io.circe#circe-generic_2.12;0.7.0!circe-generic_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.7!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.12;2.5.23!akka-actor_2.12.jar(src)
-[debug] 		tried /Users/oderazon/.ivy2/local/org.typelevel/machinist_2.12/0.6.1/srcs/machinist_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/machinist_2.12/0.6.1/machinist_2.12-0.6.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/machinist_2.12/0.6.1/machinist_2.12-0.6.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/machinist_2.12/0.6.1/machinist_2.12-0.6.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/circe/circe-numbers_2.12/0.7.0/circe-numbers_2.12-0.7.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/github/mpilquist/simulacrum_2.12/0.10.0/simulacrum_2.12-0.10.0-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/io/circe/circe-core_2.12/0.7.0/circe-core_2.12-0.7.0-sources.jar
-[info] 	[SUCCESSFUL ] com.github.mpilquist#simulacrum_2.12;0.10.0!simulacrum_2.12.jar(src) (526ms)
-[info] 	[SUCCESSFUL ] io.circe#circe-core_2.12;0.7.0!circe-core_2.12.jar(src) (523ms)
+[debug] 	[NOT REQUIRED] com.chuusai#shapeless_2.12;2.3.2!shapeless_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.typelevel#machinist_2.12;0.6.1!machinist_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.json4s#json4s-jackson_2.12;3.7.0-M1!json4s-jackson_2.12.jar(src)
+[debug] 		tried /Users/oderazon/.ivy2/local/ch.qos.logback/logback-core/1.2.3/srcs/logback-core-sources.jar
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.10.0!jackson-core.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.7!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.12;0.8.0!scala-java8-compat_2.12.jar(src)
-[debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
+[debug] 		tried https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/circe/circe-generic_2.12/0.7.0/circe-generic_2.12-0.7.0-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/machinist_2.12/0.6.1/machinist_2.12-0.6.1-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.2/shapeless_2.12-2.3.2-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/io/circe/circe-numbers_2.12/0.7.0/circe-numbers_2.12-0.7.0-sources.jar
-[info] 	[SUCCESSFUL ] io.circe#circe-numbers_2.12;0.7.0!circe-numbers_2.12.jar(src) (691ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/io/circe/circe-generic_2.12/0.7.0/circe-generic_2.12-0.7.0-sources.jar
-[info] 	[SUCCESSFUL ] io.circe#circe-generic_2.12;0.7.0!circe-generic_2.12.jar(src) (779ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/machinist_2.12/0.6.1/machinist_2.12-0.6.1-sources.jar
-[info] 	[SUCCESSFUL ] org.typelevel#machinist_2.12;0.6.1!machinist_2.12.jar(src) (490ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.2/shapeless_2.12-2.3.2-sources.jar
-[info] 	[SUCCESSFUL ] com.chuusai#shapeless_2.12;2.3.2!shapeless_2.12.jar(src) (697ms)
-[debug] :: resolution report :: resolve 519ms :: artifacts dl 1406ms
+[debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
+[info] downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar
+[info] downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar
+[info] 	[SUCCESSFUL ] ch.qos.logback#logback-classic;1.2.3!logback-classic.jar(src) (827ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar
+[info] 	[SUCCESSFUL ] ch.qos.logback#logback-core;1.2.3!logback-core.jar(src) (1488ms)
+[debug] :: resolution report :: resolve 557ms :: artifacts dl 1514ms
 [debug] 	report for configfetcher#configfetcher$sources;0.1 compile produced in /Users/oderazon/Desktop/configuration-project/ScalaSharedLib/target/scala-2.12/resolution-cache/reports/configfetcher-configfetcher$sources-compile.xml
 [debug] 	report for configfetcher#configfetcher$sources;0.1 runtime produced in /Users/oderazon/Desktop/configuration-project/ScalaSharedLib/target/scala-2.12/resolution-cache/reports/configfetcher-configfetcher$sources-runtime.xml
 [debug] 	report for configfetcher#configfetcher$sources;0.1 test produced in /Users/oderazon/Desktop/configuration-project/ScalaSharedLib/target/scala-2.12/resolution-cache/reports/configfetcher-configfetcher$sources-test.xml
@@ -5335,4 +5891,4 @@
 [debug] 	report for configfetcher#configfetcher$sources;0.1 plugin produced in /Users/oderazon/Desktop/configuration-project/ScalaSharedLib/target/scala-2.12/resolution-cache/reports/configfetcher-configfetcher$sources-plugin.xml
 [debug] 	report for configfetcher#configfetcher$sources;0.1 pom produced in /Users/oderazon/Desktop/configuration-project/ScalaSharedLib/target/scala-2.12/resolution-cache/reports/configfetcher-configfetcher$sources-pom.xml
 [debug] 	report for configfetcher#configfetcher$sources;0.1 scala-tool produced in /Users/oderazon/Desktop/configuration-project/ScalaSharedLib/target/scala-2.12/resolution-cache/reports/configfetcher-configfetcher$sources-scala-tool.xml
-[debug] 	resolve done (519ms resolve - 1406ms download)
+[debug] 	resolve done (557ms resolve - 1514ms download)
