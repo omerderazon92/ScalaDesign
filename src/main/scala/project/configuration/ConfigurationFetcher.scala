@@ -29,14 +29,14 @@ object ConfigurationName extends Enumeration {
 object ConfigurationFetcher extends ConfigurationManager {
 
   override var devName: DevName = _
-  override var configToFetch: Seq[(ConfigurationName, String)] = _
+  override var configsToFetch: Seq[(ConfigurationName, String)] = _
   override var fileNameMap = new mutable.HashMap[String, String]()
   val logger = Logger(LoggerFactory.getLogger("Configuration Fetcher"))
 
 
   def apply(devName: DevName, configToFetch: (ConfigurationName, String)*): Unit = {
     this.devName = devName
-    this.configToFetch = configToFetch
+    this.configsToFetch = configToFetch
   }
 
   /**
@@ -61,7 +61,7 @@ object ConfigurationFetcher extends ConfigurationManager {
       }
     }
     //Fetch Configuration begins here
-    for (config <- configToFetch) {
+    for (config <- configsToFetch) {
       var versionToPull: String = config._2
       if (config._2 == null) {
         versionToPull = getLatestConfigVersion(config._1)
