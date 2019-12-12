@@ -8,8 +8,8 @@ import util.Utils
 
 object DevName extends Enumeration {
   type DevName = Value
-  val OmerD: configuration.DevName.Value = Value("omerd")
-  val Prod: configuration.DevName.Value = Value("prod")
+  val OmerD: configuration.DevName.Value = Value("OmerD")
+  val Prod: configuration.DevName.Value = Value("Prod")
 }
 
 object ConfigurationName extends Enumeration {

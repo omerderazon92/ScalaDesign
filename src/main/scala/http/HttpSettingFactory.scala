@@ -5,5 +5,5 @@ package http
   */
 object HttpSettingFactory {
   val configBaseUrl: String = "http://10.11.123.191:31553/v1/kv/omer-design/"
-  val sharedConfigVersions: String = "http://10.11.123.191:31553/v1/kv/omer-design/prod/?keys=true"
+  val sharedConfigVersions: String = "http://10.11.123.191:31553/v1/kv/omer-design/Prod/?keys=true"
 }
