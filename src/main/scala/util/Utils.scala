@@ -4,6 +4,8 @@ import java.io.PrintWriter
 
 import scalaj.http.Base64
 
+import scala.reflect.io.File
+
 /**
   * Project utils
   */
