@@ -1,10 +1,8 @@
 package util
 
-import java.io.PrintWriter
+import java.io.{File, PrintWriter}
 
 import scalaj.http.Base64
-
-import scala.reflect.io.File
 
 /**
   * Project utils
@@ -17,8 +15,10 @@ object Utils {
   }
 
   def writeFile(fileName: String, input: String): Unit = {
-    new PrintWriter(fileName) {
-      write(input);
+    val current = new File(".").getCanonicalPath
+    val file = new File(current + "/cliff-common/src/main/resources/" + fileName)
+    val writer = new PrintWriter(file) {
+      write(input)
       close()
     }
   }
