@@ -15,8 +15,9 @@ object Utils {
   }
 
   def writeFile(fileName: String, input: String): Unit = {
+    //current + "/cliff-common/src/main/resources/" +
     val current = new File(".").getCanonicalPath
-    val file = new File(current + "/cliff-common/src/main/resources/" + fileName)
+    val file = new File(fileName)
     val writer = new PrintWriter(file) {
       write(input)
       close()

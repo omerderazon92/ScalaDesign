@@ -1,5 +1,8 @@
 package project.configuration
 
+import java.io.File
+
+import com.typesafe.config.{Config, ConfigFactory, ConfigParseOptions, ConfigResolveOptions, ConfigResolver}
 import com.typesafe.scalalogging.Logger
 import http.HTTPManager
 import org.slf4j.LoggerFactory
@@ -9,6 +12,7 @@ import project.configuration.DevName.DevName
 import util.Utils
 
 import scala.collection.mutable
+import scala.collection.mutable.ListBuffer
 
 object DevName extends Enumeration {
   type DevName = Value
@@ -81,4 +85,23 @@ object ConfigurationFetcher extends ConfigurationManager {
     maybeString
   }
 
+  def provideConfigObject(): Config = {
+    val listOfConfFiles = new ListBuffer[File]
+    // List of config files to add
+    for (configs <- configsToFetch) {
+      val fileName = fileNameMap.get(configs._1.toString)
+      listOfConfFiles.append(new File(fileName.orNull))
+    }
+
+    val listOfConfigs = new ListBuffer[Config]
+    //Creating Config objects from the path
+    for (file <- listOfConfFiles) {
+      listOfConfigs.append(ConfigFactory.parseFile(file))
+    }
+
+    val mergedConfig = listOfConfigs.foldLeft(ConfigFactory.empty()) { (toReturn, configFile) =>
+      toReturn.withFallback(configFile)
+    }
+    mergedConfig.resolve()
+  }
 }
