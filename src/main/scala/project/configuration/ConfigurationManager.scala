@@ -10,7 +10,7 @@ import scala.collection.mutable
 abstract class ConfigurationManager {
   var devName: DevName
   var configsToFetch: Seq[(ConfigurationName, String)]
-  var fileNameMap: mutable.HashMap[String, String]
+  var fileToPathMap: mutable.HashMap[String, String]
 
   def getLatestConfigVersion(project: ConfigurationName): String
 

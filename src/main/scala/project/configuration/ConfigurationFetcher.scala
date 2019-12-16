@@ -34,7 +34,7 @@ object ConfigurationFetcher extends ConfigurationManager {
 
   override var devName: DevName = _
   override var configsToFetch: Seq[(ConfigurationName, String)] = _
-  override var fileNameMap = new mutable.HashMap[String, String]()
+  override var fileToPathMap = new mutable.HashMap[String, String]()
   val logger = Logger(LoggerFactory.getLogger("Configuration Fetcher"))
 
 
@@ -58,7 +58,7 @@ object ConfigurationFetcher extends ConfigurationManager {
         logger.info(Utils.logsDelimiter)
         val decodedResponse = Utils.base64Decoder(encodedResponse)
         Utils.writeFile(fileName, decodedResponse)
-        fileNameMap.put(configName, fileName)
+        fileToPathMap.put(configName, fileName)
       } else {
         logger.error("Couldn't achieve the configuration of " + configName + " " + version + " Maybe version doesn't exist in Consul-KV ")
         logger.info(Utils.logsDelimiter)
@@ -87,18 +87,17 @@ object ConfigurationFetcher extends ConfigurationManager {
 
   def provideConfigObject(): Config = {
     val listOfConfFiles = new ListBuffer[File]
+    val listOfConfigs = new ListBuffer[Config]
     // List of config files to add
     for (configs <- configsToFetch) {
-      val fileName = fileNameMap.get(configs._1.toString)
+      val fileName = fileToPathMap.get(configs._1.toString)
       listOfConfFiles.append(new File(fileName.orNull))
     }
-
-    val listOfConfigs = new ListBuffer[Config]
     //Creating Config objects from the path
     for (file <- listOfConfFiles) {
+      logger.info("Merging " + file.getName)
       listOfConfigs.append(ConfigFactory.parseFile(file))
     }
-
     val mergedConfig = listOfConfigs.foldLeft(ConfigFactory.empty()) { (toReturn, configFile) =>
       toReturn.withFallback(configFile)
     }
