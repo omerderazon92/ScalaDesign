@@ -85,6 +85,8 @@ object ConfigurationFetcher extends ConfigurationManager {
     maybeString
   }
 
+
+
   def provideConfigObject(): Config = {
     val listOfConfFiles = new ListBuffer[File]
     val listOfConfigs = new ListBuffer[Config]

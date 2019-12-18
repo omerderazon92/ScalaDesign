@@ -14,6 +14,11 @@ libraryDependencies += "com.typesafe.scala-logging" %% "scala-logging" % "3.9.2"
 
 libraryDependencies += "ch.qos.logback" % "logback-classic" % "1.2.3"
 
+//libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.0-M2" % Test
+
+libraryDependencies += "org.scalactic" %% "scalactic" % "3.2.0-M2"
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.0-M2" % "test"
+
 val circeVersion = "0.7.0"
 libraryDependencies ++= Seq(
 "io.circe" %% "circe-core" % circeVersion,
