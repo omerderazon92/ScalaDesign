@@ -11,7 +11,7 @@ class TestConfig extends AnyFunSuite {
   }
 
   test("Test simple load of testConfig1.0.conf file") {
-    //Preperation
+    //Praperation
     ConfigurationFetcher.apply(DevName.Test, (ConfigurationName.TestConfig, ""))
     createFilesMap(ConfigurationFetcher.configsToFetch)
 
@@ -27,7 +27,7 @@ class TestConfig extends AnyFunSuite {
   }
 
   test("Test typesafe, pull int as a String") {
-    //Preperation
+    //Praperation
     ConfigurationFetcher.apply(DevName.Test, (ConfigurationName.TestConfig, ""))
     createFilesMap(ConfigurationFetcher.configsToFetch)
 
@@ -43,7 +43,7 @@ class TestConfig extends AnyFunSuite {
   }
 
   test("Test load by order TestConfig to TestConfig2") {
-    //Preperation
+    //Praperation
     ConfigurationFetcher.apply(DevName.Test, (ConfigurationName.TestConfig, ""), (ConfigurationName.TestConfig2, ""))
     createFilesMap(ConfigurationFetcher.configsToFetch)
 
@@ -59,7 +59,7 @@ class TestConfig extends AnyFunSuite {
   }
 
   test("Test load by order TestConfig2 to TestConfig") {
-    //Preperation
+    //Praperation
     ConfigurationFetcher.apply(DevName.Test, (ConfigurationName.TestConfig2, ""), (ConfigurationName.TestConfig, ""))
     createFilesMap(ConfigurationFetcher.configsToFetch)
 

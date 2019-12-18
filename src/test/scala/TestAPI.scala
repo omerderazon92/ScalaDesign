@@ -24,7 +24,7 @@ class TestAPI extends AnyFunSuite {
   }
 
   test("Test API with known version") {
-    //Preperation
+    //Preparation
     deleteFilesFromAPITesting()
     val version = "1.0"
     val fileName: String = (ConfigurationName.TestAPI + version + ".conf").toLowerCase
@@ -42,7 +42,7 @@ class TestAPI extends AnyFunSuite {
 
   test("Test API with latest version") {
     deleteFilesFromAPITesting()
-    //Preperation
+    //Preparation
     val version = "1.1"
     val fileName: String = (ConfigurationName.TestAPI + version + ".conf").toLowerCase
 
