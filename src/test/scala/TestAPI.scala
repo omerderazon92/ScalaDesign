@@ -6,7 +6,7 @@ import project.configuration.{ConfigurationFetcher, ConfigurationName, DevName}
 
 class TestAPI extends AnyFunSuite {
 
-  def deleteFilesFromAPITesting(): Unit = {
+  private def deleteFilesFromAPITesting(): Unit = {
     val currentRelativePath = Paths.get("")
     val s = currentRelativePath.toAbsolutePath.toFile
 
