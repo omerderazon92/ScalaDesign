@@ -18,6 +18,7 @@ object DevName extends Enumeration {
   type DevName = Value
   val OmerD: configuration.DevName.Value = Value("OmerD")
   val Prod: configuration.DevName.Value = Value("Prod")
+  val Test: configuration.DevName.Value = Value("Test")
 }
 
 object ConfigurationName extends Enumeration {
@@ -25,6 +26,8 @@ object ConfigurationName extends Enumeration {
   val Cliff: configuration.ConfigurationName.Value = Value("Cliff")
   val Item: configuration.ConfigurationName.Value = Value("Item")
   val Shared: configuration.ConfigurationName.Value = Value("Shared")
+  val TestConfig: configuration.ConfigurationName.Value = Value("testConfig1.0")
+  val TestConfig2: configuration.ConfigurationName.Value = Value("testConfig2.0")
 }
 
 /**
@@ -84,8 +87,6 @@ object ConfigurationFetcher extends ConfigurationManager {
     }
     maybeString
   }
-
-
 
   def provideConfigObject(): Config = {
     val listOfConfFiles = new ListBuffer[File]
