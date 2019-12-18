@@ -11,8 +11,8 @@ class TestConfig extends AnyFunSuite {
   }
 
   test("Test simple load of testConfig1.0.conf file") {
-    //Praperation
-    ConfigurationFetcher.apply(DevName.Test, (ConfigurationName.TestConfig, ""))
+    //Preparation
+    ConfigurationFetcher.apply(DevName.Test, (ConfigurationName.TestConfigLocalFile, ""))
     createFilesMap(ConfigurationFetcher.configsToFetch)
 
     //Test
@@ -27,8 +27,8 @@ class TestConfig extends AnyFunSuite {
   }
 
   test("Test typesafe, pull int as a String") {
-    //Praperation
-    ConfigurationFetcher.apply(DevName.Test, (ConfigurationName.TestConfig, ""))
+    //Preparation
+    ConfigurationFetcher.apply(DevName.Test, (ConfigurationName.TestConfigLocalFile, ""))
     createFilesMap(ConfigurationFetcher.configsToFetch)
 
     //Test
@@ -43,8 +43,8 @@ class TestConfig extends AnyFunSuite {
   }
 
   test("Test load by order TestConfig to TestConfig2") {
-    //Praperation
-    ConfigurationFetcher.apply(DevName.Test, (ConfigurationName.TestConfig, ""), (ConfigurationName.TestConfig2, ""))
+    //Preparation
+    ConfigurationFetcher.apply(DevName.Test, (ConfigurationName.TestConfigLocalFile, ""), (ConfigurationName.TestConfigLocalFile2, ""))
     createFilesMap(ConfigurationFetcher.configsToFetch)
 
     //Test
@@ -59,8 +59,8 @@ class TestConfig extends AnyFunSuite {
   }
 
   test("Test load by order TestConfig2 to TestConfig") {
-    //Praperation
-    ConfigurationFetcher.apply(DevName.Test, (ConfigurationName.TestConfig2, ""), (ConfigurationName.TestConfig, ""))
+    //Preparation
+    ConfigurationFetcher.apply(DevName.Test, (ConfigurationName.TestConfigLocalFile2, ""), (ConfigurationName.TestConfigLocalFile, ""))
     createFilesMap(ConfigurationFetcher.configsToFetch)
 
     //Test
@@ -72,5 +72,18 @@ class TestConfig extends AnyFunSuite {
     assert(config.getInt("test.rightConfig.three") == 33)
     assert(config.getInt("test.rightConfig.four") == 44)
     assert(config.getInt("test.rightConfig.five") == 55)
+  }
+
+  test ("Test unique values after loading with") {
+    //Preparation
+    ConfigurationFetcher.apply(DevName.Test, (ConfigurationName.TestConfigLocalFile, ""), (ConfigurationName.TestConfigLocalFile2, ""))
+    createFilesMap(ConfigurationFetcher.configsToFetch)
+
+    //Test
+    val config = ConfigurationFetcher.provideConfigObject()
+
+    //Assert
+    assert(config.getString("test.uniqueVal.value1") == "unique1")
+    assert(config.getString("test.uniqueVal.value2") == "unique2")
   }
 }
