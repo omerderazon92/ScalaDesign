@@ -28,6 +28,7 @@ object ConfigurationName extends Enumeration {
   val Shared: configuration.ConfigurationName.Value = Value("Shared")
   val TestConfig: configuration.ConfigurationName.Value = Value("testConfig1.0")
   val TestConfig2: configuration.ConfigurationName.Value = Value("testConfig2.0")
+  val TestAPI: configuration.ConfigurationName.Value = Value("TestAPI")
 }
 
 /**

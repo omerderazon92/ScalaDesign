@@ -4,7 +4,6 @@ import project.configuration.{ConfigurationFetcher, ConfigurationName, DevName}
 
 class TestConfig extends AnyFunSuite {
 
-
   private def createFilesMap(configsToFetch: Seq[(ConfigurationName, String)]): Unit = {
     for ((configName, version) <- configsToFetch) {
       ConfigurationFetcher.fileToPathMap.put(configName.toString, configName.toString + ".conf")
@@ -18,6 +17,8 @@ class TestConfig extends AnyFunSuite {
 
     //Test
     val config = ConfigurationFetcher.provideConfigObject()
+
+    //Assert
     assert(config.getInt("test.rightConfig.one") == 1)
     assert(config.getInt("test.rightConfig.two") == 2)
     assert(config.getInt("test.rightConfig.three") == 3)
@@ -32,6 +33,8 @@ class TestConfig extends AnyFunSuite {
 
     //Test
     val config = ConfigurationFetcher.provideConfigObject()
+
+    //Assert
     assert(config.getString("test.rightConfig.one") == "1")
     assert(config.getString("test.rightConfig.two") == "2")
     assert(config.getString("test.rightConfig.three") == "3")
@@ -46,6 +49,8 @@ class TestConfig extends AnyFunSuite {
 
     //Test
     val config = ConfigurationFetcher.provideConfigObject()
+
+    //Assert
     assert(config.getInt("test.rightConfig.one") == 1)
     assert(config.getInt("test.rightConfig.two") == 2)
     assert(config.getInt("test.rightConfig.three") == 3)
@@ -60,6 +65,8 @@ class TestConfig extends AnyFunSuite {
 
     //Test
     val config = ConfigurationFetcher.provideConfigObject()
+
+    //Assert
     assert(config.getInt("test.rightConfig.one") == 11)
     assert(config.getInt("test.rightConfig.two") == 22)
     assert(config.getInt("test.rightConfig.three") == 33)
