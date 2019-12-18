@@ -68,7 +68,8 @@ object ConfigurationFetcher extends ConfigurationManager {
         logger.info(Utils.logsDelimiter)
       }
     }
-    //Fetch Configuration begins here
+
+    //Fetch Configuration method begins here
     for (config <- configsToFetch) {
       var versionToPull: String = config._2
       if (config._2 == null) {
@@ -78,6 +79,11 @@ object ConfigurationFetcher extends ConfigurationManager {
     }
   }
 
+  /**
+    * Fetches the lates version number of a given project
+    * @param project
+    * @return
+    */
   override def getLatestConfigVersion(project: ConfigurationName): String = {
     logger.info("Trying to achieve the latest version of " + project)
     val maybeString = HTTPManager.getLatsetVersion(devName.toString, project.toString)
@@ -89,6 +95,10 @@ object ConfigurationFetcher extends ConfigurationManager {
     maybeString
   }
 
+  /**
+    * After fetching the configuration into a local file, provideConfigObject() returns the config object with the right order
+    * @return
+    */
   def provideConfigObject(): Config = {
     val listOfConfFiles = new ListBuffer[File]
     val listOfConfigs = new ListBuffer[Config]
