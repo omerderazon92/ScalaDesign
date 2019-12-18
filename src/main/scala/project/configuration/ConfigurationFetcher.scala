@@ -94,8 +94,12 @@ object ConfigurationFetcher extends ConfigurationManager {
     val listOfConfigs = new ListBuffer[Config]
     // List of config files to add
     for (configs <- configsToFetch) {
-      val fileName = fileToPathMap.get(configs._1.toString)
-      listOfConfFiles.append(new File(fileName.orNull))
+      val fileName = fileToPathMap.get(configs._1.toString).orNull
+      if (fileName == null) {
+        logger.error("Couldn't create a complete config object, config file of " + configs._1.toString + " version " + configs._2 + " doesnt exist ")
+      } else {
+        listOfConfFiles.append(new File(fileName))
+      }
     }
     //Creating Config objects from the path
     for (file <- listOfConfFiles) {
