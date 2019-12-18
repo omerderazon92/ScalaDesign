@@ -35,6 +35,8 @@ class TestAPI extends AnyFunSuite {
 
     //Assert
     assert(new File(fileName).exists())
+
+    //Clean up redundant files
     deleteFilesFromAPITesting()
   }
 
@@ -50,6 +52,8 @@ class TestAPI extends AnyFunSuite {
 
     //Assert
     assert(new File(fileName).exists())
+
+    //Clean up redundant files
     deleteFilesFromAPITesting()
   }
 }
