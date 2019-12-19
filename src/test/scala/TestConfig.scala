@@ -74,7 +74,7 @@ class TestConfig extends AnyFunSuite {
     assert(config.getInt("test.rightConfig.five") == 55)
   }
 
-  test ("Test unique values after loading with") {
+  test("Test unique values after loading with") {
     //Preparation
     ConfigurationFetcher.apply(DevName.Test, (ConfigurationName.TestConfigLocalFile, ""), (ConfigurationName.TestConfigLocalFile2, ""))
     createFilesMap(ConfigurationFetcher.configsToFetch)
